@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class PlayerImage : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject _playerSelect;
 
-    // Update is called once per frame
-    void Update()
+    public void OnButtonClick()
     {
-        
+        if(_playerSelect != null)
+        {
+            _playerSelect.SetActive(true);
+        }
     }
 }
