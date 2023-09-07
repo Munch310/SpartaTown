@@ -1547,6 +1547,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enterNameTxt: {fileID: 842305411}
+  player1: {fileID: 192169080}
+  player2: {fileID: 885799811}
 --- !u!1 &1238472754
 GameObject:
   m_ObjectHideFlags: 0

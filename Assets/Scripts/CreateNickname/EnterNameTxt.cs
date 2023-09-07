@@ -28,8 +28,7 @@ public class EnterNameTxt : MonoBehaviour
         // value 매개변수에는 InputField의 현재 텍스트가 전달됨
         _playerName = value;
 
-        // 필요한 추가 동작을 수행 (예: 이름 입력 후 다음 단계로 이동)
-        Debug.Log($"플레이어 이름 입력 완료: {_playerName}");
+        //Debug.Log($"플레이어 이름 입력 완료: {_playerName}");
     }
 
     public string GetPlayerName()
